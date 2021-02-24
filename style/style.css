@@ -1,3 +1,11 @@
+@font-face{
+    font-family:'roboto';
+    src:url(fonts/roboto/roboto/roboto-regular.ttf)
+}
+@font-face{
+    font-family:'montser';
+    src:url(fonts/montser/Montserrat-Black.ttf)
+}
 *{
     margin:0
 }
@@ -8,6 +16,10 @@ body{
 header{
     display: flex;
     background-color:#cd4b56
+}
+h1{
+    font-family: "montser", sans-serif;
+    font-size: 5rem;
 }
 .navbar{
     width: 80%
@@ -27,7 +39,24 @@ header{
     width: 100vh;
     
 }
-#entete{    
-    background: #d92950;
-    background: url(/images/hero-background.jpg) top no-repeat;
+.btn{
+    display: flex;
+    margin-top: 50px;
+}
+.itemsbtn{
+    font-family:"roboto", sans-serif;
+}
+#dev{
+    font-family:"montser", sans-serif
+}
+.technos{
+    display: flex
+    
+}
+#entete{  
+    width: 100vw;  
+    /* background-color: #d92950; */
+    background-image: url(/image/hero-background.jpg) ;
+    background-repeat: no-repeat;
+    padding:20%
 }
