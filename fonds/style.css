@@ -1,4 +1,30 @@
+*{
+    margin:0
+}
 body{
     width: 100 vw;
     
 }
+header{
+    display: flex;
+    background-color:#cd4b56
+}
+.navbar{
+    width: 80%
+}
+.logo{
+    width: 100px;
+    height: 58px;
+    top: 0;
+}
+.menu{
+    height: 60px;
+    list-style-type: none;
+    display: flex;
+    
+}
+#page{
+    width: 100vh;
+    padding: 20%;
+}
+
