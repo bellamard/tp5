@@ -25,6 +25,9 @@ header{
 }
 #page{
     width: 100vh;
-    padding: 20%;
+    
 }
-
+#entete{    
+    background: #d92950;
+    background: url(/images/hero-background.jpg) top no-repeat;
+}
