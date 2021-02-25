@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family:Roboto;
+    src:url(/fonts/roboto/Roboto-Regular.ttf)
+}
+@font-face{
+    font-family:montserrat;
+    src:url(/fonts/montser/Montserrat-Black.ttf)
+}
+h1, h2, h3, h4{
+    font-family:montserrat, sans-serif;
+    
+}
+p{
+    font-family: montserrat,sans-serif;
+}
+a{
+    font-family: Roboto,sans-serif;
+}
+body{
+    width:100vW;
+}
+header {
+    width:100vW;
+    background-color:#dc3545;
+    position:fixed;
+    
+}
+.entete{
+    margin: 5px;
+    flex-direction: row;
+    display:flex;
+
+}
+.logos{
+    width:100px;
+    height:60px;
+    
+}
+.lay{
+    
+}
