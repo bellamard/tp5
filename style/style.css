@@ -1,13 +1,16 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 @font-face{
     font-family:Roboto;
     src:url(/fonts/roboto/Roboto-Regular.ttf)
 }
 @font-face{
     font-family:montserrat;
-    src:url(/fonts/montser/Montserrat-Black.ttf)
+    src:url(/fonts/montser/Montserrat-Bold.ttf)
 }
 h1, h2, h3, h4{
     font-family:montserrat, sans-serif;
@@ -25,77 +28,159 @@ body{
 header {
     width:100vW;
     background-color:#dc3545;
-}
-.entete{
-    margin: 5px;
-    flex-direction: row;
+    height: 80px;
     display:flex;
-
+    flex-grow: row wrap;
+    padding: 5px
+}
+header .entete{
+    padding: 5px;
+    display:flex;
+    flex-grow: row wrap;
+    justify-content: space-between;
+    width: 100vw;
+}
+.entete .log{
+    width: 100px;
+    height: 60px;
 }
 .logos{
-    width:100px;
+    width: 100px;
     height:60px;
-    
 }
 .lay{
-    width:80%;
-    margin:auto;
-    align-items: flex-end;
-}
-.menu{
-    width:auto;
-    list-style:none;
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    align-items: flex-end;
-    align-content: flex-end;
-}
-.rub{
-    font-family: Roboto, sans-serif;
-    font-size:16px;
-    margin: 0px 20px;
-    width: auto;
     
 }
-.rub a{
+
+.lay .navbar{
+    display: flex;
+    flex-grow: row wrap;
     text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
+    list-style: none;
+    padding-right: 15px;    
+    
 }
-.rub a:hover{
+.navbar .rub{
+   margin: 15px;
+}
+.navbar a{
+    font-family: Roboto,sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.navbar .selected, .navbar a:hover{
     border-bottom: 2px solid #ee5071;
+}
+/* fin header */
+#page{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
 }
 
 .hautpage{
-    background-color:#dc3545;
-    background-image: url("/images/hero-background.jpg") no-repeat;
-    width: 100vW;
+    width: 100vw;
+    background-image: url("../images/hero-background.jpg");
+    background-size: cover;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    flex-wrap:nowrap;
+    align-items: center;
+    padding: 10%;
 }
-#page{
-    margin: O;
-}
-.hautpage .tihaut{
-    margin: auto;
-}
-.hautpage h1{
-    color: #ffffff;
-    color:#dc3545;
+.tihaut{
+    margin:auto;   
+    margin-bottom: 0px; 
     text-align: center;
-
+    color: white
 }
-.hautpage h1 span{
-    color:#ffe64d;
-    
+.tihaut h1{
+    font-size: 5.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;    
+    text-transform: uppercase;
 }
-.hautpage .btn{
-    margin:0 auto;
-}
-.hautpage .btn a{
-    padding:20px 20px;
+.tihaut h1 span{
+    color: #ffdd5a;
+    }
+.btn{
+    margin-top: 10px;
+    padding: 35px;
+    margin:auto;   
+  }
+.btn a{
+    text-transform: uppercase;
+    padding:15px;
     background-color: #fff;
-    border-radius: 25%;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    font-weight: bold;
     text-decoration: none;
+    color: #ee5071;
+    margin:5px
+}
+.btn a:hover{
+    background-color: #ee5071;
+    color: #fff;
+}
+.tech{
+    width:100%;
+    margin-top: 40px;
+    opacity: 0.33;
+    display: flex;
+    flex-grow: row wrap;
+    justify-content: space-around
+}
+.tech .itemtech{
+    width: 50px;
+    height: 50px;
+}
+/* fin entete de page */
+.deve{
+    margin:O 10;
+    display: flex;
+    flex-grow: row wrap;
+}
+.ullistr{
+    width:800px;
+    height:55Opx;
+    position:relative;
+    display: block;
+}
+.ullistr img{
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+/* text  image */
+
+.ullistr div{
+  width: 100px;
+  height: 400px;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+.relatif{
+  position: relative;
+}
+.haut{
+  top: 60px;/*Elément décalé de 50px vers le bas p/r à une origine*/
+}
+.gauche{
+  left: 150px;/*Element décalé de 150px vers la droite p/r à une origine*/
+}
+.droite{
+  right: 30px;/*Element décalé de 30px vers la gauchr p/r à une origine*/
+}
+
+.bleu{
+  background-color: #0AF;
+}
+.vert{
+  background-color: #0FA;
 }

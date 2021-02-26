@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p{
+  background-color: #0CC;
+}
+div{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.relatif{
+  position: relative;
+}
+.haut{
+  top: 60px;/*Elément décalé de 50px vers le bas p/r à une origine*/
+}
+.gauche{
+  left: 150px;/*Element décalé de 150px vers la droite p/r à une origine*/
+}
+.droite{
+  right: 30px;/*Element décalé de 30px vers la gauchr p/r à une origine*/
+}
+
+.bleu{
+  background-color: #0AF;
+}
+.vert{
+  background-color: #0FA;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Un premier paragraphe</p>
+<p class="relatif haut">Un deuxième paragraphe</p>
+<p>Un <span class="relatif gauche">troisième</span> paragraphe</p>
+<br><br>
+<div class="carre bleu">1</div>
+<div class="carre vert relatif haut droite">3</div>
+<div class="carre bleu"> 2</div>
+    
+</body>
+</html>
