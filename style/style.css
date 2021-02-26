@@ -25,8 +25,6 @@ body{
 header {
     width:100vW;
     background-color:#dc3545;
-    position:fixed;
-    
 }
 .entete{
     margin: 5px;
@@ -40,5 +38,64 @@ header {
     
 }
 .lay{
+    width:80%;
+    margin:auto;
+    align-items: flex-end;
+}
+.menu{
+    width:auto;
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.rub{
+    font-family: Roboto, sans-serif;
+    font-size:16px;
+    margin: 0px 20px;
+    width: auto;
     
+}
+.rub a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.rub a:hover{
+    border-bottom: 2px solid #ee5071;
+}
+
+.hautpage{
+    background-color:#dc3545;
+    background-image: url("/images/hero-background.jpg") no-repeat;
+    width: 100vW;
+    display: flex;
+    flex-direction: column;
+}
+#page{
+    margin: O;
+}
+.hautpage .tihaut{
+    margin: auto;
+}
+.hautpage h1{
+    color: #ffffff;
+    color:#dc3545;
+    text-align: center;
+
+}
+.hautpage h1 span{
+    color:#ffe64d;
+    
+}
+.hautpage .btn{
+    margin:0 auto;
+}
+.hautpage .btn a{
+    padding:20px 20px;
+    background-color: #fff;
+    border-radius: 25%;
+    text-decoration: none;
 }
