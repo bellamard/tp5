@@ -531,15 +531,9 @@ header .entete{
     height:168px ;
     border-radius: 10px
 }
-.soutien .itemsfootsout{
-    margin: 5px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid;
-    
+.itemsfoot_sout{
+    padding: 5px;
 }
-.footsout .itemsfootsout{
-    margin:5px;
-}
+
 
 
