@@ -510,8 +510,36 @@ header .entete{
 .grmedias img{
     margin:20px;
 }
+/* fin medias */
 .soutien{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:100px;
+}
+.soutien .bodsout{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    margin:15px;
     
+}
+.itemsbosout{
+    padding: 5px;
+}
+.itemsbosout img{
+    width:270px;
+    height:168px ;
+    border-radius: 10px
+}
+.soutien .itemsfootsout{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    
+}
+.footsout .itemsfootsout{
+    margin:5px;
 }
 
 
