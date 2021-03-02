@@ -536,6 +536,17 @@ header .entete{
 .itemsfoot_sout{
     padding: 5px;
 }
+/* fin soutien */
+.contact{
+    background-color:#111;
+    color: white;
+    align-items: center;
+}
+.form_contact{
+    display:flex;
+    flex-direction:column;
+    
+}
 
 
 
