@@ -12,17 +12,10 @@
     font-family:montserrat;
     src:url(/fonts/montser/Montserrat-Black.ttf)
 }
-h1, h2, h3, h4{
-    font-family:montserrat, sans-serif;
-    font-weight:700;
-    
-}
-p{
-    font-family: montserrat,sans-serif;
-    font-weight:400;
-}
-a{
-    font-family: Roboto,sans-serif;
+h1, h2, h3, h4 span i{
+    font-family:montserrat sans-serif;
+    font-weight: 900;
+    font-size: 1.9vw;
 }
 body{
     width:100vW;
@@ -98,8 +91,7 @@ header .entete{
     color: white
 }
 .tihaut h1{
-    font-size: 6.5vw;
-    font-weight: bold;
+    
     text-align: center;
     color: #fff;    
     text-transform: uppercase;
@@ -286,7 +278,6 @@ header .entete{
 .itypro h3{
     color: #ee5071;
     font-family: Montserrat, sans-serif;
-    font-size:28px;
 
 }
 .itypro p{
@@ -299,7 +290,7 @@ header .entete{
     padding: 10px;
     display: flex;
     flex-direction:  column;
-    background: #d92950;
+    background: #ae3753;
     align-items: center;
 }
 .real h2{
@@ -400,14 +391,17 @@ header .entete{
 }
 .softskill .bodysoft{
     margin: 25px;
-    padding: 25px;
+    padding: 40px;
     background-color: #e0dfe2;
     line-height: 1.5em;
     border-radius: 15px;
 }
+
 .bodysoft li{
-    font-size: 16px;
-    font-family: Montserrat sans-serif;
+    
+    font-family: ubuntu sans-serif;
+    font-size:1.3rem;
+    line-height: 1.9em
     
 }
 /* fin expert */
@@ -458,7 +452,7 @@ header .entete{
 .itemspret .special{
     height: 35px;
     width: 35px;
-   padding: 4px;
+    margin-left: 10px;
 }
 .pret.footpret{
     margin:26px 0;
