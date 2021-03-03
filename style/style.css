@@ -10,14 +10,16 @@
 }
 @font-face{
     font-family:montserrat;
-    src:url(/fonts/montser/Montserrat-Bold.ttf)
+    src:url(/fonts/montser/Montserrat-Black.ttf)
 }
 h1, h2, h3, h4{
     font-family:montserrat, sans-serif;
+    font-weight:700;
     
 }
 p{
     font-family: montserrat,sans-serif;
+    font-weight:400;
 }
 a{
     font-family: Roboto,sans-serif;
@@ -50,9 +52,7 @@ header .entete{
     width: 100px;
     height:60px;
 }
-.lay{
-    
-}
+
 
 .lay .navbar{
     display: flex;
@@ -310,7 +310,6 @@ header .entete{
     width: 100%;
     display: flex;
     justify-content:space-around;
-    overflow-x: scroll;
 }
 .layreal .itemreal{
     display: flex;
@@ -325,6 +324,10 @@ header .entete{
 .itemreal .pays{
     display: flex;
     justify-items: center;
+    border-radius: 15px 0px 0px 15px ;
+    margin:10px;
+    color: red;
+    background-color: #fff;
 }
 .pays img{
     margin: 0 2px;
@@ -335,6 +338,8 @@ header .entete{
 }
 .itemreal .techno{
     display: flex;
+    justify-content:space-around;
+    background-color:deeppink;
 }
 
 
@@ -369,6 +374,7 @@ header .entete{
     background-color: #cd4b56;
     padding: 20px;
     color: #fff;
+
 }
 .hardskill .bodyhard{
     margin: 25px;
@@ -377,7 +383,12 @@ header .entete{
     grid-template-columns: auto auto auto auto;
 }
 .bodyhard .itemshard{
-    margin: 10px;   
+    margin: 10px;  
+    text-align: center;
+}
+.itemshard img{
+    width: 45px;
+    height: 45px;
 }
 .compexpert .softskill{
     width: 35%;
@@ -437,6 +448,17 @@ header .entete{
 }
 .gimg img{
     width: 50%;   
+}
+
+.itemspret .separat{
+   display: flex;
+   align-items: center;
+
+}
+.itemspret .special{
+    height: 35px;
+    width: 35px;
+   padding: 4px;
 }
 .pret.footpret{
     margin:26px 0;
@@ -541,12 +563,57 @@ header .entete{
     background-color:#111;
     color: white;
     align-items: center;
+    
 }
 .form_contact{
     display:flex;
     flex-direction:column;
     
 }
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;;
+}
+.grid .itemgrid{
+    margin: 10px;
+    padding: 15px;
+    background-color: #f1f0f3;
+    border-radius: 10px
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    background-color:#2d2d2d;
+    display: flex;
+    color: white;
+    line-height: 1.9em;
+
+}
+address{
+    font-family: Roboto sans-serif;
+    font-size:medium;
+    
+}
+.foo{
+    margin: 25px;
+    
+}
+
+.newslet .elemnew{
+    font-size: 25px;
+    padding: 10px;
+}
+.rad{
+    border-radius: 0px 15px 15px 0px;
+    background-color:#dc3545;
+    align-items: center;
+    color: white;
+}
+.rad:hover{
+    background-color:#2d2d2d3f;
+}
+
 
 
 
